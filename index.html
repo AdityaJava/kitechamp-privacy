@@ -31,7 +31,7 @@
 </head>
 <body>
   <h1>Privacy Policy — Kite Royale</h1>
-  <p class="effective">Effective date: 19 June 2026</p>
+  <p class="effective">Effective date: 10 August 2026</p>
 
   <p>
     Kite Royale ("we", "us", or "the app"), developed by Aditya Dudhal, respects your privacy.
@@ -52,9 +52,32 @@
       information. No name, email address, or login is required to play.
     </li>
     <li>
-      <strong>On-device diagnostics.</strong> Crash and error logs are stored
-      <strong>only on your device</strong> to help us fix bugs. They are <strong>not</strong>
-      uploaded to us or any third party.
+      <strong>Analytics (Google Analytics for Firebase).</strong> To understand how the game is
+      played and where players run into trouble, the app records anonymous gameplay events &mdash;
+      for example that a match started or finished, which arena was used, how long it lasted, and
+      whether an item was bought with in-game coins. These are tied to an app-generated identifier,
+      never to your name or email. You can switch this off at any time in the app's settings.
+    </li>
+    <li>
+      <strong>Crash and error reporting (Firebase Crashlytics).</strong> When the game crashes or
+      hits an error, a report is sent to us containing the error message, the technical stack
+      trace, your device model and operating-system version, and which screen you were on. A copy
+      is also kept on your device.
+    </li>
+    <li>
+      <strong>Performance samples.</strong> The app records how smoothly each match ran (frame
+      rate and a coarse device class) so we can fix slowdowns on specific devices. No personal
+      data is attached.
+    </li>
+    <li>
+      <strong>Notifications (Firebase Cloud Messaging).</strong> If you leave notifications
+      enabled, the app registers a device notification token so we can send occasional messages
+      about new content and events. Turning notifications off in the app's settings stops this.
+    </li>
+    <li>
+      <strong>Remote configuration (Firebase Remote Config).</strong> The app downloads settings
+      values so we can adjust game balance and advertising frequency without an update. This is a
+      download only &mdash; no data about you is sent.
     </li>
   </ul>
 
@@ -74,8 +97,16 @@
   <h2>Third-party services</h2>
   <ul>
     <li>Google AdMob — <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">policies.google.com/privacy</a></li>
+    <li>Google Firebase (Analytics, Crashlytics, Cloud Messaging, Remote Config) — <a href="https://firebase.google.com/support/privacy" rel="noopener" target="_blank">firebase.google.com/support/privacy</a></li>
     <li>Unity Gaming Services — <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a></li>
   </ul>
+
+  <h2>Your choices</h2>
+  <p>
+    Analytics collection can be turned off inside the app at any time. Notifications can be turned
+    off in the app's settings or in your device's system settings. You can reset or delete your
+    advertising identifier from your device's Google settings.
+  </p>
 
   <h2 id="data-deletion">Data retention and how to request deletion</h2>
   <p>
@@ -101,14 +132,16 @@
   </p>
   <p>
     <strong>Data that is kept:</strong> aggregated, anonymised statistics that can no longer be
-    linked to your device may be retained for legal and operational purposes. Crash and error logs
-    are stored <strong>only on your device</strong> and are removed when you uninstall the app or
-    clear its storage. On-device game progress is likewise removed on uninstall.
+    linked to your device may be retained for legal and operational purposes. Crash reports and
+    analytics events held by Google Firebase are retained under Google's own retention policies
+    and are deleted on request as described above. The on-device copy of the error log, and your
+    on-device game progress, are removed when you uninstall the app or clear its storage.
   </p>
   <p>
-    <strong>Retention period:</strong> we do not collect personal data, so none is retained by us.
-    Advertising identifiers are retained by Google AdMob and Unity Gaming Services under their own
-    policies; deletion requests are forwarded to them where applicable.
+    <strong>Retention period:</strong> we do not collect data that identifies you personally.
+    Advertising identifiers, analytics events and crash reports are retained by Google AdMob,
+    Google Firebase and Unity Gaming Services under their own policies; deletion requests are
+    forwarded to them where applicable.
   </p>
 
   <h2>Security</h2>
